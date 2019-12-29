@@ -162,7 +162,7 @@ header {
 }
 .page-nav__link:hover {
   opacity: 1;
-	text-decoration-color: cornflowerblue
+  color:brown;
 }
 .social-nav__item {
   margin-left: 49px;
