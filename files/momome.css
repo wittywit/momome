@@ -157,10 +157,12 @@ header {
   margin-right: 0;
 }
 .page-nav__link {
-  opacity: 0.3;
+  opacity: 1;
+	
 }
 .page-nav__link:hover {
   opacity: 1;
+	text-decoration-color: cornflowerblue
 }
 .social-nav__item {
   margin-left: 49px;
