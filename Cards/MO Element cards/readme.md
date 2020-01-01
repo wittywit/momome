@@ -1,0 +1,1 @@
+Here you will find the Movement Element cards. These cards can be used to conduct movement observation activities. behind each card are a set of activities that can be performed in a group or individually. These activities are there to provide a systematic approach to observe and make anote of movements that surround us.
