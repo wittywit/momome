@@ -204,22 +204,22 @@ header {
   font-family: 'Circe-Regular', sans-serif;
 }
 
-.services__header {
+.movement__header {
   margin-bottom: 63px;
 }
-.service {
+.movement {
   margin-bottom: 45px;
 }
-.service__wrap {
+.movement__wrap {
   margin-bottom: 77px;
 }
-.services__description {
+.movement__description {
   position: relative;
   top: 7px;
   left: 2px;
   padding-right: 30px;
 }
-.services__btn {
+.movement__btn {
   margin-top: 7px;
 }
 .description {
@@ -302,13 +302,13 @@ header {
   background: url(../img/icons/right-grey.svg) no-repeat center;
 }
 
-.portfolio__title {
+.motion__title {
   margin-bottom: 35px;
 }
-.portfolio__description {
+.motion__description {
   margin-bottom: 45px;
 }
-.portfolio__cases {
+.motion__cases {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
@@ -347,26 +347,26 @@ header {
   height: 100%;
 }
 
-.trusted__header {
+.mechanism__header {
   margin-bottom: 40px;
 }
-.trusted__description {
+.mechanism__description {
   position: relative;
   top: 2px;
   left: 2px;
 }
-.trusted__number-description {
+.mechanism__number-description {
   max-width: 100px;
 }
-.trusted__item {
+.mechanism__item {
   position: relative;
   width: 100%;
   margin-bottom: 40px;
 }
-.trusted__item:last-of-type {
+.mechanism__item:last-of-type {
   margin-bottom: 0;
 }
-.trusted__circle {
+.mechanism__circle {
   width: 72px;
   height: 72px;
   margin-right: 30px;
@@ -376,10 +376,10 @@ header {
   line-height: 72px;
   text-align: center;
 }
-.trusted__circle img {
+.mechanism__circle img {
   vertical-align: middle;
 }
-.trusted__text {
+.mechanism__text {
   max-width: 180px;
 }
 .contact {
@@ -432,9 +432,9 @@ header {
 /* --CONTACTS-- */
 
 
-/* --PORTFOLIO-- */
+/* --motion-- */
 
-/* --TEAM-- */
+/* --mechanism-- */
 
 /* -- Default page -- */
 
@@ -517,54 +517,54 @@ header {
   .h2 {
     margin-bottom: 35px;
   }
-  .services__number-description {
+  .movement__number-description {
     max-width: 80px;
   }
-  .service__description {
+  .movement__description {
     max-width: 240px;
   }
-  .trusted__wrap {
+  .mechanism__wrap {
     width: 100%;
   }
-  .trusted__left {
+  .mechanism__left {
     margin-bottom: 45px;
   }
   .number {
     width: 72px;
     margin-right: 10px;
   }
-  .services__header .services__title{
+  .movement__header .movement__title{
     display: inline-block;
     max-width: 129px;
   }
-  .services__header .services__description{
+  .movement__header .movement__description{
     display: inline-block;
     max-width: 611px;
     margin-left: 12.5555%;
   }
 }
 @media( max-width: 1300px ) and (min-width: 1200px) {
-  .services__header .services__title{
+  .movement__header .movement__title{
     display: inline-block;
     max-width: 200px;
   }
-  .services__header .services__description{
+  .movement__header .movement__description{
     display: inline-block;
     max-width: 611px;
     margin-left: 5.555555%;
   }
-  .service__wrap{
+  .movement__wrap{
     margin-left: 16.555555%;
     max-width: 200px;
   }
-  .service{
+  .movement{
     max-width: 250px;
     margin-left: 5.555555%;
   }
-  .service:nth-last-child(2){
+  .movement:nth-last-child(2){
     margin-left: 38%;
   }
-  .services__btn{
+  .movement__btn{
     margin-left: 38%;
   }
 }
@@ -586,7 +586,7 @@ header {
   .top-part__description {
     font-size: 20px;
   }
-  .portfolio__cases {
+  .motion__cases {
     margin-top: -60px;
   }
   .footer__icon {
@@ -617,23 +617,23 @@ header {
   .social-nav__item {
     margin-left: 22px;
   }
-  .service__wrap {
+  .movement__wrap {
     width: 50%;
   }
-  .services__header .services__description{
+  .movement__header .movement__description{
     display: block;
     max-width: 100%;
     margin-left: 16.666665%;
   }
-  .services__header .services__title{
+  .movement__header .movement__title{
     display: block;
     max-width: 100%;
   }
-  .service__wrap{
+  .movement__wrap{
     margin-left: 16.555555%;
     max-width: 100%;
   }
-  .trusted__left {
+  .mechanism__left {
     display: none;
   }
   .page-wrapper > section{
@@ -678,7 +678,7 @@ header {
   .top-part__description {
     font-size: 22px;
   }
-  .portfolio__cases {
+  .motion__cases {
     -webkit-box-align: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
@@ -692,11 +692,11 @@ header {
   .case:nth-of-type(1n) {
     margin-top: 60px;
   }
-  .trusted__circle {
+  .mechanism__circle {
     margin-right: 50%;
     margin-bottom: 15px;
   }
-  .trusted__text {
+  .mechanism__text {
     max-width: 180px;
   }
   .page-home .contact {
@@ -741,8 +741,8 @@ header {
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
   }
-  /*.page-case .portfolio-page__case--type-2:last-of-type,*/
-  /*.portfolio-page__case--type-2:last-of-type {*/
+  /*.page-case .motion-page__case--type-2:last-of-type,*/
+  /*.motion-page__case--type-2:last-of-type {*/
   /*  margin-bottom: 0;*/
   /*}*/
   .page-home .header .container {
@@ -861,24 +861,24 @@ header {
   .top-part__footer .container {
     padding-right: 0;
   }
-  .trusted__circle {
+  .mechanism__circle {
     margin-right: 30px;
     margin-bottom: 0;
   }
-  .trusted__right {
+  .mechanism__right {
     margin-bottom: 40px;
   }
-  .trusted__right:last-of-type {
+  .mechanism__right:last-of-type {
     margin-bottom: 40px;
   }
-  .portfolio__description {
+  .motion__description {
     margin-bottom: 0;
   }
-  .portfolio__cases {
+  .motion__cases {
     margin-bottom: 45px;
   }
   /* other fix */
-  .services__header .services__description {
+  .movement__header .movement__description {
     margin-left: 0;
   }
   .first-screen {
@@ -943,21 +943,21 @@ header {
   .top-part__footer {
     display: none;
   }
-  .portfolio__title,
-  .trusted__title {
+  .motion__title,
+  .mechanism__title {
     margin-bottom: 25px;
   }
-  .service__more,
-  .trusted__left {
+  .movement__more,
+  .mechanism__left {
     display: none;
   }
-  .service {
+  .movement {
     width: 100%;
   }
-  .trusted__text {
+  .mechanism__text {
     max-width: 180px;
   }
-  .trusted__circle {
+  .mechanism__circle {
     margin-right: 15px;
     margin-bottom: 0;
   }
@@ -982,10 +982,10 @@ header {
 }
 
 @media (max-width: 330px) {
-  .trusted__text {
+  .mechanism__text {
     max-width: 170px;
   }
-  .trusted__description {
+  .mechanism__description {
     padding-right: 17px;
   }
 }

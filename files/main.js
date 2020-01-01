@@ -137,9 +137,9 @@ $(function() {
   	$( '.slide__description' ).text( description );
   }
 
-  var owl_3 = $( '.team__slider.owl-carousel' ),
-      left_3 = $( '.team__slide-img-prev' ),
-      right_3 = $( '.team__slide-img-next' );
+  var owl_3 = $( '.mechanism__slider.owl-carousel' ),
+      left_3 = $( '.mechanism__slide-img-prev' ),
+      right_3 = $( '.mechanism__slide-img-next' );
   if( $(window).width() > 991 ) {
 	  owl_3.owlCarousel({
 	    loop: false,
@@ -157,15 +157,15 @@ $(function() {
 	    smartSpeed: 300,
 	    items: 1,
 	  });
-	  prev = document.querySelectorAll('.team__slide-img-prev');
+	  prev = document.querySelectorAll('.mechanism__slide-img-prev');
 	  if (prev.length > 0) {
 			prev_first = prev[0];
-			prev_first.classList.add("team_slider_hide-bottom")
+			prev_first.classList.add("mechanism_slider_hide-bottom")
 	  }
-	  next = document.querySelectorAll('.team__slide-img-next');
+	  next = document.querySelectorAll('.mechanism__slide-img-next');
 		if (next.length > 0) {
 			next_last = next[next.length - 1];
-			next_last.classList.add("team_slider_hide-bottom")
+			next_last.classList.add("mechanism_slider_hide-bottom")
 		}
 	}
   left_3.click(function() {
@@ -175,9 +175,9 @@ $(function() {
     owl_3.trigger( 'next.owl.carousel' );
   });
 
-  var owl_4 = $( '.team__nav-photo .owl-carousel' ),
-      left_4 = $( '.team__slider-block .team__nav-prev' ),
-      right_4 = $( '.team__slider-block .team__nav-next' );
+  var owl_4 = $( '.mechanism__nav-photo .owl-carousel' ),
+      left_4 = $( '.mechanism__slider-block .mechanism__nav-prev' ),
+      right_4 = $( '.mechanism__slider-block .mechanism__nav-next' );
   if( $(window).width() > 1200 ) {
   	owl_4.owlCarousel( {
 	    loop: false,
@@ -199,8 +199,8 @@ $(function() {
   }
 
   left_4.click(function() {
-    var img = $( '.team__nav-photo img' ).parent();
-		var item = img.index( $( '.team__nav-photo .owl-item.active' ) );
+    var img = $( '.mechanism__nav-photo img' ).parent();
+		var item = img.index( $( '.mechanism__nav-photo .owl-item.active' ) );
   	if(item >= 4) {
   		owl_4.trigger( 'to.owl.carousel', item - 4 );
   	} else {
@@ -208,8 +208,8 @@ $(function() {
   	}
   });
 	right_4.click(function() {
-		var img = $( '.team__nav-photo img' ).parent();
-		var item = img.index( $( '.team__nav-photo .owl-item.active' ) ) + 4;
+		var img = $( '.mechanism__nav-photo img' ).parent();
+		var item = img.index( $( '.mechanism__nav-photo .owl-item.active' ) ) + 4;
   	if(item < img.length) {
   		owl_4.trigger('to.owl.carousel', item);
   	}
@@ -217,20 +217,20 @@ $(function() {
 
 
   function callbackOnInitialized_4( event ) {
-  	var img = $( '.team__nav-photo img' );
-		var item = img.index( $( '.team__nav-photo .current' ) ) + 1;
+  	var img = $( '.mechanism__nav-photo img' );
+		var item = img.index( $( '.mechanism__nav-photo .current' ) ) + 1;
   	var count = event.item.count;
 
-  	$( '.team__nav-item' ).text( sprintf( "%.02d", item ) );
-  	$( '.team__nav-count' ).text( sprintf( "%.02d", count ) );
+  	$( '.mechanism__nav-item' ).text( sprintf( "%.02d", item ) );
+  	$( '.mechanism__nav-count' ).text( sprintf( "%.02d", count ) );
   	owl_3.trigger('to.owl.carousel', item - 1);
 
   	img.click( function( event ) {
   		img.removeClass( 'current' );
   		$( event.target ).addClass( 'current' );
 
-  		var item = img.index( $( '.team__nav-photo .current' ) ) + 1;
-  		$( '.team__nav-item' ).text( sprintf( "%.02d", item ) );
+  		var item = img.index( $( '.mechanism__nav-photo .current' ) ) + 1;
+  		$( '.mechanism__nav-item' ).text( sprintf( "%.02d", item ) );
   		owl_3.trigger('to.owl.carousel', item - 1);
   	} );
   }
