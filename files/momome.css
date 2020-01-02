@@ -2642,7 +2642,7 @@ img.quote-author__photo {
     margin-bottom: 0;
   }
   .page__list--type-1 {
-    display: none;
+    display: inline-block;
   }
   .slider__wrap {
     height: 48vw;
