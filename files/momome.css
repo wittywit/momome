@@ -1419,6 +1419,8 @@ img.quote-author__photo {
 }
 .motion-page__case-img {
   max-width: 100%;
+  width:500px;
+	height: 350px;
 }
 .motion-page__case-img--top {
   position: relative;
